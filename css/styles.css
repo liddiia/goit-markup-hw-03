@@ -25,14 +25,12 @@ body {
 .list {
   list-style: none;
 }
-/*heder*/
+/*------------heder---------------*/
 .text-nav {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
@@ -46,8 +44,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
-  /* identical to box height, or 117% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -66,8 +62,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -75,8 +69,10 @@ body {
 .text-adress:hover {
   color: var(--color-ocean);
 }
+.container {
+}
 
-/* Titel-1 */
+/* -----------Titel-1------------- */
 .background-titel {
   background-color: var(--color-grey);
 }
