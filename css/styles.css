@@ -12,19 +12,38 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
-/*Body*/
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-slate);
-  background-color: var(--color-white);
+*,
+*::before *::after {
+  box-sizing: border-box;
 }
+/*Reset start*/
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+/*Reset end*/
+
+/*Body*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
 /*------------heder---------------*/
 .text-nav {
   text-decoration: none;
@@ -44,7 +63,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -69,17 +87,47 @@ body {
 .text-adress:hover {
   color: var(--color-ocean);
 }
-.container {
-}
 
+.container {
+  width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+  gap: 40px;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.heder-container {
+  display: flex;
+  align-items: center;
+}
+.adress-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 156px;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 /* -----------Titel-1------------- */
 .background-titel {
+  padding-top: 188px;
   background-color: var(--color-grey);
+  text-align: center;
 }
 .text-titel {
+  text-align: center;
   font-size: 56px;
   line-height: 1.07;
-
+  text-align: center;
   /* or 107% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -103,6 +151,7 @@ body {
 
   /* WHITE */
   color: var(--color-white);
+  padding: 16px 32px 16px 32px;
 }
 .button-studio-color {
   background-color: var(--color-iris);
@@ -114,8 +163,13 @@ body {
   cursor: pointer;
 }
 /*section 2 studio*/
-
+.features-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .features-titel {
+  margin-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -127,6 +181,7 @@ body {
   color: var(--color-navy-blue);
 }
 .features-text {
+  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
 
