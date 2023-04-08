@@ -17,7 +17,7 @@
 *::before *::after {
   box-sizing: border-box;
 }
-/*Reset start*/
+/*===============Reset start==================*/
 .link {
   text-decoration: none;
 }
@@ -35,16 +35,24 @@ p {
 img {
   display: block;
 }
-/*Reset end*/
+/*==============Reset end===============*/
 
-/*Body*/
+/*==============Body================*/
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
   background-color: var(--color-white);
 }
 
-/*------------heder---------------*/
+.container {
+  width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*================heder===================*/
 .text-nav {
   text-decoration: none;
   font-weight: 500;
@@ -67,6 +75,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .text-logo-stdio-top {
   font-family: "Raleway", sans-serif;
@@ -88,13 +98,6 @@ body {
   color: var(--color-ocean);
 }
 
-.container {
-  width: 1158px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .nav-container {
   display: flex;
   align-items: center;
@@ -127,9 +130,6 @@ body {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
-  /* or 107% */
-  text-align: center;
   letter-spacing: 0.02em;
 
   /* WHITE */
@@ -167,31 +167,35 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
+  padding-bottom: 120px;
+  gap: 24;
 }
 .features-titel {
   margin-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
-  /* identical to box height, or 120% */
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: var(--color-navy-blue);
 }
+
 .features-text {
   margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
-
-  /* or 150% */
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: var(--color-slate);
 }
+
 /*section 3 background: #F4F4FD;*/
+
+.doing-container {
+  display: flex;
+  align-items: center;
+  padding-top: 112px;
+  gap: 24px;
+  padding-bottom: 120px;
+}
 .team-backgr {
   background-color: var(--color-cloud);
 }
@@ -199,7 +203,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -207,15 +210,24 @@ body {
 }
 /*Section-4-Team*/
 
+.team-container {
+  display: flex;
+  align-items: center;
+  padding-top: 72px;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
 .team-cards-fon {
   background-color: var(--color-white);
+}
+.titel-container {
+  padding-top: 72px;
 }
 .team-cards-titel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
-  /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
@@ -223,26 +235,20 @@ body {
 .team-cards-prof {
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: var(--color-slate);
 }
-/*sec*/
-/*buttons-portfolio*/
 
+/*=======buttons-portfoli===========*/
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  /* IRIS */
   color: var(--color-iris);
   background-color: var(--color-cloud);
 }
@@ -253,7 +259,7 @@ body {
   background-color: var(--color-ocean);
   cursor: pointer;
 }
-/*Prodjectc-portfolio*/
+/*==========Prodjects-portfolio============*/
 .prodject-titel {
   font-weight: 500;
   font-size: 20px;
@@ -266,12 +272,22 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: var(--color-slate);
 }
-/*footers*/
-.footer-fon {
+
+/*=============footers==================*/
+
+.footer-container-logo {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 102px;
+  padding-bottom: 100px;
+}
+.footer-container-text {
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-background {
   background-color: var(--color-navy-blue);
 }
 
