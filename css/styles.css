@@ -57,7 +57,10 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-
+.heder-container {
+  display: flex;
+  align-items: center;
+}
 .text-nav {
   text-decoration: none;
   font-weight: 500;
@@ -107,7 +110,6 @@ body {
 .text-adress:hover {
   color: var(--color-ocean);
 }
-
 .nav-container {
   display: flex;
   align-items: center;
@@ -117,10 +119,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.heder-container {
-  display: flex;
-  align-items: center;
-}
+
 .adress-container {
   display: flex;
   align-items: center;
