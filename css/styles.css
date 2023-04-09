@@ -57,6 +57,7 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .text-nav {
   text-decoration: none;
   font-weight: 500;
@@ -83,6 +84,8 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
+}
+.nav {
   margin-right: 76px;
 }
 .text-logo-stdio-top {
@@ -175,6 +178,7 @@ body {
 .feautures {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 .features-container {
   display: flex;
@@ -229,6 +233,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
 }
 .card-cont {
   padding: 32px 16px;
@@ -253,6 +258,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -264,8 +270,20 @@ body {
   color: var(--color-slate);
   text-align: center;
 }
+/*===================PORTFOLIO====================*/
+.portfolio-section {
+  padding: 96px 0 120px;
+}
 
 /*=======buttons-portfoli===========*/
+
+.portf-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -277,6 +295,10 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
+
+  padding: 12px 24px;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
 }
 
 .button-portfolio:hover,
@@ -284,14 +306,30 @@ body {
   color: var(--color-white);
   background-color: var(--color-ocean);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 /*==========Prodjects-portfolio============*/
+.prodject-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.proj-point {
+  width: calc((100%-48px) / 3);
+}
+.titel-par {
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+  border-top: none;
+}
 .prodject-titel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  margin-bottom: 8px;
 }
 .project-paragraf {
   font-weight: 400;
