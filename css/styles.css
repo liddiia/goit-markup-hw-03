@@ -35,14 +35,6 @@ p {
 img {
   display: block;
 }
-/*==============Reset end===============*/
-
-/*==============Body================*/
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-slate);
-  background-color: var(--color-white);
-}
 
 .container {
   width: 1158px;
@@ -50,6 +42,15 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/*==============Reset end===============*/
+
+/*==============Body================*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 
 /*================heder===================*/
@@ -121,7 +122,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-/* -----------Titel-1------------- */
+/* ===================Titel-1================== */
 .background-titel {
   padding-top: 188px;
   background-color: var(--color-grey);
@@ -135,8 +136,8 @@ body {
   max-width: 496px;
 }
 
-/*batton*/
-.button-contesner {
+/*=================batton Studio===============*/
+.button-conteiner {
   display: block;
 }
 .text-button-studio {
@@ -157,13 +158,15 @@ body {
   background-color: var(--color-ocean);
   cursor: pointer;
 }
-/*section 2 studio*/
+/*===============section 2 studio=================*/
+.feautures {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .features-container {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 .features-container-item {
   flex-basis: calc((100% - 72px) / 4);
@@ -185,14 +188,18 @@ body {
   color: var(--color-slate);
 }
 
-/*section 3 background: #F4F4FD;*/
-
+/*==============section 3 ================*/
+.doing {
+  padding-bottom: 120px;
+}
 .doing-container {
   display: flex;
   align-items: center;
   padding-top: 112px;
   gap: 24px;
-  padding-bottom: 120px;
+}
+.doing-container-item {
+  width: calc((100% - 48px) / 3);
 }
 .team-backgr {
   background-color: var(--color-cloud);
@@ -207,7 +214,7 @@ body {
   color: var(--color-navy-blue);
   margin-bottom: 72px;
 }
-/*Section-4-Team*/
+/*===========Section-4-Team===================*/
 
 .team-container {
   display: flex;
@@ -284,12 +291,13 @@ body {
 }
 .footer-container-text {
   margin-right: auto;
-  margin-left: auto;
 }
 .footer-background {
   background-color: var(--color-navy-blue);
 }
-
+.footer {
+  margin-bottom: 16px;
+}
 .text-logo-stdio-footer {
   font-family: "Raleway", sans-serif;
 
