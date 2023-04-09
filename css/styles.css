@@ -214,9 +214,13 @@ body {
 .doing-container-item {
   width: calc((100% - 48px) / 3);
 }
-.team-backgr {
+
+/*===========Section-4-Team===================*/
+.team {
   background-color: var(--color-cloud);
+  padding: 120px 0;
 }
+
 .titels {
   font-weight: 700;
   font-size: 36px;
@@ -225,18 +229,18 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
-  margin-bottom: 72px;
 }
-/*===========Section-4-Team===================*/
+.card-cont {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
 
 .team-container {
   display: flex;
   align-items: center;
   padding-top: 72px;
   gap: 24px;
-  padding-bottom: 120px;
 }
-
 .team-cards-fon {
   background-color: var(--color-white);
 }
@@ -249,6 +253,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-cards-prof {
@@ -256,6 +262,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  text-align: center;
 }
 
 /*=======buttons-portfoli===========*/
