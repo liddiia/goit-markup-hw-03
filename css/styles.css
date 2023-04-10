@@ -54,14 +54,19 @@ body {
 }
 
 /*================heder===================*/
-/*
+
 .header {
   border-bottom: 1px solid var(--color-cornflower);
 }
-.heder-container {
+.header-container {
   display: flex;
   align-items: center;
-}*/
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
 .text-nav {
   text-decoration: none;
   font-weight: 500;
@@ -69,6 +74,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .text-nav:focus,
 .text-nav:hover {
@@ -83,9 +90,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
+}
+.nav-list-cont {
+  display: flex;
+  gap: 40px;
 }
 
-.text-logo-stdio-top {
+.text-logo-studio-top {
   font-family: "Raleway", sans-serif;
   color: var(--color-navy-blue);
 }
@@ -105,24 +117,9 @@ body {
   color: var(--color-ocean);
 }
 
-/*
-.nav-container {
-  display: flex;
-  align-items: center;
-  margin-left: 56px;
-  gap: 40px;
-  margin-right: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .adress-container {
   display: flex;
-  align-items: center;
-  margin-right: auto;
-  margin-left: 156px;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 /*===================Section1===================*/
 /* =====Titel-1======== */
