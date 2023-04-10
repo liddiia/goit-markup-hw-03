@@ -82,6 +82,7 @@ body {
   color: var(--color-ocean);
 }
 .text-logo {
+  display: inline-block;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
