@@ -54,13 +54,14 @@ body {
 }
 
 /*================heder===================*/
+/*
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--color-cornflower);
 }
 .heder-container {
   display: flex;
   align-items: center;
-}
+}*/
 .text-nav {
   text-decoration: none;
   font-weight: 500;
@@ -68,8 +69,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  display: flex;
-  align-items: center;
 }
 .text-nav:focus,
 .text-nav:hover {
@@ -84,13 +83,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: inline-block;
 }
-.nav {
-  margin-right: 76px;
-}
+
 .text-logo-stdio-top {
   font-family: "Raleway", sans-serif;
   color: var(--color-navy-blue);
@@ -110,6 +104,8 @@ body {
 .text-adress:hover {
   color: var(--color-ocean);
 }
+
+/*
 .nav-container {
   display: flex;
   align-items: center;
@@ -119,7 +115,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 .adress-container {
   display: flex;
   align-items: center;
