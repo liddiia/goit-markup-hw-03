@@ -58,10 +58,12 @@ body {
 .header {
   border-bottom: 1px solid var(--color-cornflower);
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -74,6 +76,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -81,6 +84,7 @@ body {
 .text-nav:hover {
   color: var(--color-ocean);
 }
+
 .text-logo {
   display: inline-block;
   text-decoration: none;
@@ -91,8 +95,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+}
+
+.text-logo-header {
   margin-right: 76px;
 }
+
 .nav-list-cont {
   display: flex;
   gap: 40px;
@@ -152,7 +160,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 48px 0;
+  margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -175,8 +183,20 @@ body {
 .feautures {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-bottom: 72px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .features-container {
   display: flex;
   align-items: center;
@@ -186,7 +206,6 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 .features-titel {
-  margin-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -209,7 +228,6 @@ body {
 .doing-container {
   display: flex;
   align-items: center;
-  padding-top: 112px;
   gap: 24px;
 }
 .doing-container-item {
@@ -240,15 +258,14 @@ body {
 .team-container {
   display: flex;
   align-items: center;
-  padding-top: 72px;
   gap: 24px;
 }
 .team-cards-fon {
   background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100%-72px) / 4);
 }
-.titel-container {
-  padding-top: 72px;
-}
+
 .team-cards-titel {
   font-weight: 500;
   font-size: 20px;
